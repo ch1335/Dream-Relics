@@ -18,6 +18,9 @@ public class ModCreativeTabs {
                     .icon(() -> ModItems.MEMORY_STARDUST.get().getDefaultInstance())
                     .title(Component.translatable("itemGroup.dream_relics.dream_relics_tab"))
                     .displayItems((parameters, output) -> {
+//                        ModItems.ITEMS.getEntries().forEach(object -> {
+//                            output.accept(object.get());
+//                        });
                         output.accept(ModItems.SOUL_MIRROR.get());
                         output.accept(ModItems.DREAM_TOTEM.get());
                         output.accept(ModItems.MOMENT_STONE.get());

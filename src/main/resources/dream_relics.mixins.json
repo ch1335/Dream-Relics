@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.bmt.dream_relics.mixins.minecraft",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "dream_relics.mixins.refmap.json",
+  "mixins": [
+  ],
+  "minVersion": "0.8",
+  "client": [
+
+  ]
+}
