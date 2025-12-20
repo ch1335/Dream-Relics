@@ -1,0 +1,30 @@
+{
+  "itemGroup.dream_relics.dream_relics_tab": "旧梦遗物",
+
+  "item.dream_relics.soul_mirror.cooldown": "冷却时间：%s秒",
+  "death.dream_relics.no_death_point": "灵魂并没有散落",
+
+  "item.dream_relics.soul_mirror": "灵魂之镜",
+  "item.dream_relics.dream_totem": "梦境图腾",
+  "item.dream_relics.moment_stone": "须臾之石",
+  "item.dream_relics.endless_dream": "无尽梦",
+  "item.dream_relics.years_amber": "岁月琥珀",
+  "item.dream_relics.memory_stardust": "记忆星尘",
+  "item.dream_relics.time_hourglass": "时之沙漏",
+  "item.dream_relics.astral_necklace": "星界项链",
+  "item.dream_relics.tassel_ring": "流苏戒指",
+  "item.dream_relics.observe_self_eye": "观我之瞳",
+  "item.dream_relics.dream_balance": "织梦天平",
+  "item.dream_relics.past_ring": "往昔戒指",
+  "item.dream_relics.echo_earring": "回响耳坠",
+  "item.dream_relics.memory_necklace": "记忆项链",
+  "item.dream_relics.sleeping_star_seed": "沉眠星种",
+  "item.dream_relics.liminal_key": "阈限之钥",
+  "item.dream_relics.heart_voice_pendant": "心声吊坠",
+  "item.dream_relics.awaken_dream_bracelet": "醒梦手镯",
+  "item.dream_relics.mist_veil_ring": "雾幔纱戒指",
+  "item.dream_relics.nightmare_book": "噩梦之书",
+  "item.dream_relics.void_necklace": "虚空项链",
+  "item.dream_relics.dark_whisper_ring": "暗黑低语戒指",
+  "item.dream_relics.dark_whisper_dagger": "暗黑低语匕首"
+}

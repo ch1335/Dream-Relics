@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dream_relics:item/sleeping_star_seed"
+  }
+}
