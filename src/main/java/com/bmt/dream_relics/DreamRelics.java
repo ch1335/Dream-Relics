@@ -4,6 +4,7 @@ import com.bmt.dream_relics.config.Config;
 import com.bmt.dream_relics.registry.ModCreativeTabs;
 import com.bmt.dream_relics.registry.ModItems;
 import com.mojang.logging.LogUtils;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -28,6 +29,10 @@ public class DreamRelics {
 
         MinecraftForge.EVENT_BUS.register(this);
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+    }
+
+    public static ResourceLocation id(String s) {
+        return ResourceLocation.fromNamespaceAndPath(MODID, s);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

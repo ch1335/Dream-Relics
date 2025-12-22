@@ -2,6 +2,7 @@ package com.bmt.dream_relics.registry;
 
 import com.bmt.dream_relics.DreamRelics;
 import com.bmt.dream_relics.item.SoulMirrorItem;
+import com.bmt.dream_relics.item.YearsAmber;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -21,7 +22,7 @@ public class ModItems {
     public static final RegistryObject<Item> ENDLESS_DREAM = ITEMS.register("endless_dream",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> YEARS_AMBER = ITEMS.register("years_amber",
-            () -> new Item(new Item.Properties()));
+            () -> new YearsAmber(new Item.Properties()));
     public static final RegistryObject<Item> MEMORY_STARDUST = ITEMS.register("memory_stardust",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TIME_HOURGLASS = ITEMS.register("time_hourglass",

@@ -1,9 +1,8 @@
 {
   "itemGroup.dream_relics.dream_relics_tab": "旧梦遗物",
-
   "item.dream_relics.soul_mirror.cooldown": "冷却时间：%s秒",
   "death.dream_relics.no_death_point": "灵魂并没有散落",
-
+  "item.dream_relics.years_amber.show": "按住左ALT以显示物品",
   "item.dream_relics.soul_mirror": "灵魂之镜",
   "item.dream_relics.dream_totem": "梦境图腾",
   "item.dream_relics.moment_stone": "须臾之石",

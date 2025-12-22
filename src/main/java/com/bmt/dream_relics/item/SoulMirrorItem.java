@@ -25,7 +25,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Mod.EventBusSubscriber(modid = DreamRelics.MODID)
-public class SoulMirrorItem extends Item {
+public class SoulMirrorItem extends DreamRelicItemBase {
 
     public SoulMirrorItem(Properties properties) {
         super(properties.stacksTo(1).rarity(Rarity.UNCOMMON));
