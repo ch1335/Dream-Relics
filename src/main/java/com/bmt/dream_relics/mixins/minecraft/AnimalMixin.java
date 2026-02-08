@@ -18,8 +18,8 @@ public abstract class AnimalMixin {
 
     @Inject(method = "mobInteract", at = @At("HEAD"), cancellable = true)
     private void onMobInteract(Player player, InteractionHand hand, CallbackInfoReturnable<InteractionResult> cir) {
-        if (isFood(player.getItemInHand(hand))) {
-            cir.setReturnValue(InteractionResult.FAIL);
-        }
+//        if (isFood(player.getItemInHand(hand))) {
+//            cir.setReturnValue(InteractionResult.FAIL);
+//        }
     }
 }
