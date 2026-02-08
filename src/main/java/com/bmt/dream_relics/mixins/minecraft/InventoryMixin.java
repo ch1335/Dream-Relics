@@ -1,7 +1,6 @@
 package com.bmt.dream_relics.mixins.minecraft;
 
 import com.bmt.dream_relics.item.YearsAmber;
-import com.bmt.dream_relics.util.Util;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.entity.player.Inventory;

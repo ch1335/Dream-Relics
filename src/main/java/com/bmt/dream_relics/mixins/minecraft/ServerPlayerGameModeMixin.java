@@ -41,6 +41,7 @@ public class ServerPlayerGameModeMixin {
         @Nullable Pair<Float, ItemStack> pair = YearsAmber.findBestCorrectTool(player, itemStack.get().copy(), blockState);
         if (pair != null) {
             itemStack.set(pair.getSecond());
+
         }
     }
 

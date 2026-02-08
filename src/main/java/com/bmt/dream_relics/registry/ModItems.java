@@ -1,6 +1,7 @@
 package com.bmt.dream_relics.registry;
 
 import com.bmt.dream_relics.DreamRelics;
+import com.bmt.dream_relics.item.NightmareBook;
 import com.bmt.dream_relics.item.SoulMirrorItem;
 import com.bmt.dream_relics.item.YearsAmber;
 import net.minecraft.world.item.Item;
@@ -52,7 +53,7 @@ public class ModItems {
     public static final RegistryObject<Item> MIST_VEIL_RING = ITEMS.register("mist_veil_ring",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NIGHTMARE_BOOK = ITEMS.register("nightmare_book",
-            () -> new Item(new Item.Properties()));
+            () -> new NightmareBook(new Item.Properties()));
     public static final RegistryObject<Item> VOID_NECKLACE = ITEMS.register("void_necklace",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DARK_WHISPER_RING = ITEMS.register("dark_whisper_ring",

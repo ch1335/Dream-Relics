@@ -24,6 +24,7 @@ public class DRItemTagsProvider extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.@NotNull Provider pProvider) {
         tag(CHARM).add(ModItems.YEARS_AMBER.get());
+        tag(CHARM).add(ModItems.NIGHTMARE_BOOK.get());
     }
 
     public static final TagKey<Item> CHARM = createItemTag("charm");
